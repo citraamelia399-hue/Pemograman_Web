@@ -1,0 +1,11 @@
+### get list inventasi
+GET http://localhost:8787/api/inventaris
+
+### get by ID
+GET http://localhost:8787/api/inventaris/1
+
+### create new inventasi
+POST http://localhost:8787/api/inventaris
+Content-Type: application/json
+
+{"nama": "Router 2", "kategori": "router", "kondisi": "Baik"}
